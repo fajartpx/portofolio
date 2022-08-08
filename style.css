@@ -5,10 +5,11 @@
     
 }
 
+/* navbar style */
 
 .navbar {
     display: flex;
-    background-color:#41729F;
+    background-color:#ffffff;
     flex-direction: row;
     padding: 10px 100px;
     align-items: center;
@@ -17,13 +18,13 @@
 }
 
 .logo {
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-size: 22px;
 }
 
 .logo span{
-    color: #C3E0E5;
+    color: #52ab98;
 }
 
 .menu {
@@ -33,7 +34,7 @@
 }
 
 .menu li a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     padding: 0 30px;
     font-size: 20px;
@@ -43,6 +44,7 @@
 .hire {
     color: #ffffff;
     font-size: 20px;
+    background-color:#52ab98 ;
     padding: 10px 20px;
     border-radius: 30px;
     border: 1px solid #ffffff;
@@ -50,4 +52,76 @@
 
 .hire:hover {
     background-color: #C3E0E5;
+}
+
+/* about style */
+
+.about {
+    display: flex;
+    height: 80vh;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    background-color: #C3E0E5;
+}
+
+.foto {
+    flex-basis: 40%;
+    height: 80vh;
+    background-color: #52ab98;
+}
+.about img {
+    height: auto;
+    width:380px;
+    margin: 0 100px;
+}
+
+.container {
+    color: #000000;
+    flex-basis: 60%;
+    height: auto;
+    
+}
+
+.deskrip {
+    margin-left: 100px;
+    height: 40vh;
+    width :100%;
+}
+
+.deskrip h3 {
+    font-size: 30px;
+}
+
+.deskrip h1 {
+    font-size: 60px;
+}
+
+.deskrip p {
+    text-align: justify;
+    font-size:18px;
+    margin-bottom: 40px;
+}
+
+.deskrip .textme {
+    height: 40px;
+    width: 80%;
+    background-color:transparent ;
+    border-radius: 10px;
+    margin-right: 60px;
+    border: 4px solid #52ab98;
+    outline: none;
+}
+
+.deskrip .btn {
+    position: relative;
+    height: 30px;
+    width: 60px;
+    right: 130px;
+    top: 0px;
+    border-radius: 6px ;
+    border: none;
+    background-color: #52ab98;
+    color: #ffffff;
 }
